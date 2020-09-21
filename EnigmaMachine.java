@@ -245,7 +245,7 @@ public class EnigmaMachine {
 	/**
 	 * A simple method to use brute force to crack the enigma
 	 * @param ciphertext The encrypted message to be cracked
-	 * @param key A portion of the suspected plaintext method
+	 * @param key A portion of the suspected plaintext message
 	 * @return An array of possible solutions
 	 */
 	public static String[] crack(String ciphertext, String key) {
